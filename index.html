@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contest-2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <script src="script.js"></script>
+
+    <form id="Form">
+      <h2>Library Management Sytsem</h2>
+
+      <div class="">
+        <label>Book Name</label> <input type="text" id="bookName" />
+      </div>
+      <div class="">
+        <label>Issued To</label> <input type="text" id="issued" />
+      </div>
+      <br /><br />
+
+      <button type="submit" class="issueBook">Issue Book</button>
+    </form>
+
+    <table id="Table">
+      <thead>
+        <tr>
+          <td>ID</td>
+          <td>Book Name</td>
+          <td>Issued To</td>
+          <td>Issue Date and Time</td>
+          <td>Status</td>
+        </tr>
+      </thead>
+      <tbody id="List"></tbody>
+    </table>
+  </body>
+</html>

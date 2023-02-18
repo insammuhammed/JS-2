@@ -1,0 +1,39 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+form {
+  margin-left: 22px;
+  margin-top: 28px;
+}
+
+label {
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+input {
+  width: 30%;
+  padding: 11px 18px;
+  margin: 17px 4px;
+}
+.issueBook {
+    background-color: white;
+    color: black;
+    width: 574px;
+    height: 59px;
+}
+
+Table {
+  width: 90%;
+  border: 1px solid white;
+  border-collapse: collapse;
+  margin: 25px;
+}
+
+Table th,
+Table td {
+  border: 1px solid white;
+  padding: 7px;
+}
